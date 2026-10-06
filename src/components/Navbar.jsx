@@ -18,9 +18,16 @@ function Navbar() {
         {/* Logo */}
         <a
           href="#home"
-          className="text-2xl font-bold tracking-wider text-white transition duration-300 hover:scale-105"
+          className="flex items-center gap-3 text-xl font-bold tracking-wider text-white transition duration-300 hover:scale-105"
         >
-          RAFIKI<span className="text-secondary"> PET GROOMERS</span>
+          <img
+            src="/rafiki-logo.png"
+            alt=""
+            className="h-11 w-11 shrink-0 rounded bg-white object-contain"
+          />
+          <span>
+            RAFIKI<span className="text-secondary"> PET GROOMERS</span>
+          </span>
         </a>
 
         {/* Desktop Navigation */}

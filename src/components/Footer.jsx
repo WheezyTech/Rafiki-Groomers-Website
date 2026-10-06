@@ -13,10 +13,13 @@ function Footer() {
           <div className="lg:col-span-2">
             <a
               href="#home"
-              className="text-2xl font-extrabold tracking-wide"
+              className="inline-block"
             >
-              RAFIKI
-              <span className="text-secondary"> PET GROOMERS</span>
+              <img
+                src="/rafiki-logo.png"
+                alt="RAFIKI PET GROOMERS"
+                className="h-36 w-36 rounded bg-white object-contain"
+              />
             </a>
 
             <p className="mt-5 max-w-md leading-7 text-white/75">
