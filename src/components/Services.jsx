@@ -3,71 +3,71 @@ const services = [
     icon: "🐶",
     title: "Dog Grooming",
     description:
-      "Complete grooming for dogs including bathing, drying, brushing, trimming and styling.",
-    price: "From KSh 800",
+      "Professional dog grooming including bathing, drying, brushing, hair trimming and styling. We provide gentle grooming at your doorstep.",
   },
   {
     icon: "🐱",
     title: "Cat Grooming",
     description:
-      "Gentle grooming services for cats to keep their coats clean, healthy and comfortable.",
-    price: "From KSh 800",
+      "Gentle cat grooming to keep your cat's coat clean, healthy and comfortable, with convenient door-to-door service.",
   },
   {
     icon: "🛁",
     title: "Pet Bath & Dry",
     description:
-      "Professional bathing and drying using pet-friendly products suitable for your pet.",
-    price: "From KSh 500",
+      "Professional pet bathing and drying using pet-friendly grooming products to help keep dogs and cats clean and comfortable.",
   },
   {
     icon: "✂️",
     title: "Hair Trimming",
     description:
-      "Neat and comfortable coat trimming tailored to your pet's breed and needs.",
-    price: "From KSh 600",
+      "Neat and comfortable dog and cat hair trimming tailored to your pet's coat, breed and grooming needs.",
   },
   {
     icon: "🐾",
     title: "Nail Trimming",
     description:
-      "Safe nail trimming to help keep your pet's paws healthy and comfortable.",
-    price: "From KSh 300",
+      "Safe pet nail trimming to help maintain healthy paws and keep your dog's or cat's nails comfortable.",
   },
   {
     icon: "✨",
     title: "Full Grooming",
     description:
-      "Our complete grooming package combining bathing, drying, brushing, trimming and nail care.",
-    price: "From KSh 1,500",
+      "Complete pet grooming combining bathing, drying, brushing, hair trimming and nail care for a clean and well-groomed pet.",
   },
 ];
 
 function Services() {
   return (
-    <section id="services" className="bg-background px-6 py-24 text-text">
+    <section
+      id="services"
+      className="bg-background px-6 py-24 text-text"
+    >
       <div className="mx-auto max-w-7xl">
 
         {/* Heading */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-primary">
-            What We Offer
+            Our Pet Grooming Services
           </p>
 
           <h2 className="text-4xl font-extrabold sm:text-5xl">
-            Professional Pet Grooming
+            Professional Dog & Cat Grooming
           </h2>
 
           <p className="mt-5 text-lg leading-8 text-text/75">
-            From a simple bath to a complete grooming session, we provide
-            gentle and professional care to keep your pet clean, healthy and
-            looking their best.
+            RAFIKI PET GROOMERS provides professional pet grooming services
+            for dogs and cats. From bathing and drying to hair trimming,
+            nail care and complete grooming, we bring convenient grooming
+            directly to your doorstep.
           </p>
         </div>
 
-        <p className="mx-auto mt-4 max-w-2xl text-center text-text/75">
-          No stressful trips to a grooming shop. RAFIKI PET GROOMERS brings
-          professional pet grooming services directly to your doorstep.
+        {/* Door-to-Door SEO Content */}
+        <p className="mx-auto mt-4 max-w-3xl text-center text-text/75">
+          No stressful trips to a grooming shop. Our door-to-door pet
+          grooming service means we come to you, making professional
+          dog and cat grooming more convenient for you and your pet.
         </p>
 
         {/* Service Cards */}
@@ -91,11 +91,17 @@ function Services() {
                 {service.description}
               </p>
 
-              {/* Price */}
+              {/* Price / Booking */}
               <div className="mt-6 flex items-center justify-between border-t border-text/10 pt-5">
-                <span className="font-bold text-primary">
-                  {service.price}
-                </span>
+                {service.price ? (
+                  <span className="font-bold text-primary">
+                    {service.price}
+                  </span>
+                ) : (
+                  <span className="text-sm font-medium text-text/60">
+                    Contact us
+                  </span>
+                )}
 
                 <a
                   href="#booking"
@@ -115,8 +121,9 @@ function Services() {
           </h3>
 
           <p className="mx-auto mt-3 max-w-2xl text-white/80">
-            Book an appointment with RAFIKI PET GROOMERS and let our team
-            take care of your pet's grooming needs.
+            Book a door-to-door grooming appointment with RAFIKI PET GROOMERS
+            and let us take care of your dog's or cat's grooming needs from
+            the comfort of your home.
           </p>
 
           <a

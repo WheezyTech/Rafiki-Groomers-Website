@@ -8,7 +8,7 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=2000&q=85"
-          alt="Happy dog receiving professional grooming"
+          alt="Professional dog grooming service by RAFIKI PET GROOMERS"
           className="h-full w-full object-cover"
         />
 
@@ -22,7 +22,7 @@ function Hero() {
 
           {/* Small Heading */}
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.3em] text-secondary">
-            Professional Door-to-Door Pet Grooming
+            Professional Door-to-Door Dog & Cat Grooming
           </p>
 
           {/* Main Heading */}
@@ -36,10 +36,10 @@ function Hero() {
 
           {/* Description */}
           <p className="mt-6 max-w-xl text-lg leading-8 text-white/85">
-            At RAFIKI PET GROOMERS, we bring professional grooming directly to
-            your doorstep. Our gentle and convenient pet grooming service helps
-            keep your pets clean, comfortable, healthy and looking their best
-            — right at home.
+            At RAFIKI PET GROOMERS, we bring professional pet grooming
+            directly to your doorstep. We provide gentle and convenient
+            dog and cat grooming services designed to keep your pets
+            clean, comfortable, healthy and looking their best — right at home.
           </p>
 
           {/* Buttons */}
@@ -63,20 +63,28 @@ function Hero() {
 
           {/* Features */}
           <div className="mt-12 flex flex-wrap gap-8 border-t border-white/20 pt-6">
+
             <div>
               <p className="text-2xl">🏠</p>
-              <p className="mt-1 text-sm text-white/75">We Come to You</p>
+              <p className="mt-1 text-sm text-white/75">
+                We Come to You
+              </p>
             </div>
 
             <div>
               <p className="text-2xl">🐶</p>
-              <p className="mt-1 text-sm text-white/75">Dog Grooming</p>
+              <p className="mt-1 text-sm text-white/75">
+                Dog Grooming
+              </p>
             </div>
 
             <div>
               <p className="text-2xl">🐱</p>
-              <p className="mt-1 text-sm text-white/75">Cat Grooming</p>
+              <p className="mt-1 text-sm text-white/75">
+                Cat Grooming
+              </p>
             </div>
+
           </div>
         </div>
       </div>
