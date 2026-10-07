@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Rafiki Pet Groomers</string>
+    <string name="title_activity_main">Rafiki Pet Groomers</string>
+    <string name="package_name">com.rafikigroomers.app</string>
+    <string name="custom_url_scheme">com.rafikigroomers.app</string>
+</resources>
