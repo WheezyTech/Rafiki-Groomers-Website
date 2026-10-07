@@ -27,6 +27,14 @@ function Footer() {
               furry friends clean, comfortable, healthy and happy.
             </p>
 
+            <a
+              href="/rafiki-groomers.apk"
+              download="Rafiki-Pet-Groomers.apk"
+              className="mt-5 inline-flex items-center rounded-md bg-white/10 px-4 py-3 text-sm font-semibold text-white transition hover:bg-secondary hover:text-text"
+            >
+              Download Android App (APK)
+            </a>
+
             {/* Social Media */}
             <div className="mt-6 flex gap-3">
 
